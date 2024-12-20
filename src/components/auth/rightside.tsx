@@ -7,7 +7,7 @@ export const RightSide = () => {
     const [isSaasActive, setIsSaasActive] = useState(true);
 
     return (
-        <div className="flex w-full max-w-[400px] md:max-w-full md:w-1/2 flex-col justify-center items-center p-4 gap-4 bg-gray-100">
+        <div className="flex w-full max-w-full md:max-w-full md:w-1/2 flex-col justify-center items-center p-4 gap-4 bg-gray-100">
             <div className="w-full max-w-[672px] h-full max-h-[620px] bg-white border border-gray-300 rounded-lg flex flex-col shadow-sm">
                
                 <div className="bg-white h-1/2 w-full rounded-lg flex flex-col items-center justify-center space-y-4 gap-9">
@@ -25,7 +25,7 @@ export const RightSide = () => {
                     </div>
                 ) : (
                     <div className="flex flex-col items-center justify-center space-y-3 p-4 border-t-2">
-                        <ButtonComp text="Selfhosted Gitlab" icon="image-1.png" />
+                        <ButtonComp text="Self Hosted Gitlab" icon="image-1.png" />
                         <ButtonComp text="Sign in with SSO" icon="key.png" />
                     </div>
                 )}
