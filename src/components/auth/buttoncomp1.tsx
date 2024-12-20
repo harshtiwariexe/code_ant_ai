@@ -14,7 +14,7 @@ export const ButtonComp1 = ({onToggle} : ButtonComp1Props) => {
     };
 
     return (
-        <div className="relative flex items-center w-[376px] md:w-[624px] h-[52px] md:h-[60px] bg-gray-100 rounded-lg border border-gray-300 overflow-hidden">
+        <div className="relative flex items-center w-[340px] md:w-[624px] h-[52px] md:h-[60px] bg-gray-100 rounded-lg border border-gray-300 overflow-hidden">
          
             <div
                 className={`absolute top-0 h-full w-1/2 bg-blue-500 transition-transform duration-300 ${
